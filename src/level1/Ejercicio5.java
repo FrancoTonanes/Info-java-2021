@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Scanner;
 
-public class Cinco {
+public class Ejercicio5 {
 	
     static int suma_sucesiva(int x, int y){
         int suma = 0;

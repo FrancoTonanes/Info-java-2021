@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Scanner;
 
-public class Dos {
+public class Ejercicio2 {
 	
     static int suma(int x, int y) {
         return x + y;
@@ -24,7 +24,7 @@ public class Dos {
         Scanner ingreso = new Scanner(System.in);
         System.out.println("Ingrese un número x:");
         int x = ingreso.nextInt();
-        System.out.println("Ingrese un número x:");
+        System.out.println("Ingrese un número y:");
         int y = ingreso.nextInt();
 
         int resultado = suma(x, y);

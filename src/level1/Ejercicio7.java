@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Scanner;
 
-public class Siete {
+public class Ejercicio7 {
     public static void main(String[] args) {
 
         Scanner ingreso = new Scanner(System.in);

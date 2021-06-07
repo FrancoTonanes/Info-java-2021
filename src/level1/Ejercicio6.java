@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Scanner;
 
-public class Seis {
+public class Ejercicio6 {
     static int potencia(int x, int y){
         int potencia = 1;
         for(int i=1; i <= y;i++){

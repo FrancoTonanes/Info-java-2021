@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Scanner;
 
-public class Ocho {
+public class Ejercicio8 {
     static String formateo(String ciudad, String direccion, String edad, String nomb_app){
         String mensaje = String.format("%s - %s - %s - %s", ciudad, direccion, edad, nomb_app);
         return mensaje;
