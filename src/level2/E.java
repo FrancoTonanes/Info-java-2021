@@ -9,7 +9,7 @@ public class E {
         ArrayList<Integer> horas = new ArrayList<>();
         ArrayList<Integer> sueldo = new ArrayList<>();
         ArrayList<Integer> total_semana = new ArrayList<>();
-        ArrayList<Integer> total_mes = new ArrayList<>();
+        ArrayList<Integer> total_final = new ArrayList<>();
 
         String[] semana_dias = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes"};
         for(String i : semana_dias){
@@ -26,10 +26,10 @@ public class E {
             total_semana.add(x);
             total += x;
         }
-        total_mes.add(total);
+        total_final.add(total);
 
         System.out.println("Salario por semana: " + total_semana);
-        System.out.printf("Total final por mes: $" + total_mes.get(0));
+        System.out.printf("Total final por semana: $" + total_final.get(0));
         ingreso.close();
     } 
 }
