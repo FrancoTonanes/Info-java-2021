@@ -45,7 +45,7 @@ public class Empleado {
     public static void main(String[] args) {
         Scanner ingreso = new Scanner(System.in);
         HashMap<Integer, Object> empleados = new HashMap<>();
-        HashSet<Object> listaEmpleados = new HashSet<>();
+        HashSet<Empleado> listaEmpleados = new HashSet<>();
 
         while(true){
             System.out.println("Ingrese un empleado");
@@ -79,15 +79,15 @@ public class Empleado {
             
         }
 
-        for(Object i : listaEmpleados){
+        for(Empleado i : listaEmpleados){
 
             
-            int sueldo = sueldo(((Empleado) i).getHoras(), ((Empleado) i).getValorXhoras());
+            int sueldo = sueldo(i.getHoras(), i.getValorXhoras());
             
-            empleados.put(((Empleado) i).getDni(), sueldo);
+            empleados.put(i.getDni(), sueldo);
 
         }
-
+        
         System.out.println(empleados);
 
         ingreso.close();
